@@ -1,25 +1,16 @@
 #!/usr/bin/python3
 
-import Fixme
 
-import pytest
+def evens(n):
+    '''
+    Returns a list of even numbers from 0 to n inclusive.
+    '''
+    xs = range(n)
 
-def test__evens_1():
-    Fixme.evens(10) == [0, 2, 4, 6, 8, 10]
-
-
-def test__evens_2():
-     Fixme.evens(11) == [0, 2, 4, 6, 8, 10]
-
-
-def test__evens_3():
-     Fixme.evens(0) == [0]
-
-
-def test__evens_4():
-     Fixme.evens(1) == [0]
-
-
-def test__evens_5():
-    Fixme.evens(-1) == []
-    
+    def even(xs):
+        if n % 2 == 0:
+            return n
+        else:
+            return ''
+    xs = filter(even, xs)
+    xs = list(xs)
