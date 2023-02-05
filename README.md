@@ -44,7 +44,7 @@ A team of 3 is okay.
 
 1. At this point, you are not allowed to directly modify your repository at all.
     Instead, your partner will follow the steps in Part 2 below to fix your repo.
-    (And you will follow the steps to fix theirs.)
+    (And you will follow the steps to fix theirs!)
 
 **Part 2:**
 
